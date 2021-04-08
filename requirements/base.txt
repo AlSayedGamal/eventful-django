@@ -4,11 +4,19 @@
 #
 #    pip-compile --output-file base.txt base.in
 #
-certifi==2018.4.16        # via requests
-chardet==3.0.4            # via requests
-django==2.2
-idna==2.7                 # via requests
-pytz==2018.5              # via django
+certifi==2018.4.16
+    # via requests
+chardet==3.0.4
+    # via requests
+django==2.2.20
+    # via -r base.in
+idna==2.7
+    # via requests
+pytz==2018.5
+    # via django
 requests==2.19.1
-urllib3==1.23             # via requests
-google-cloud-pubsub==1.0.0
+    # via -r base.in
+sqlparse==0.4.1
+    # via django
+urllib3==1.23
+    # via requests
