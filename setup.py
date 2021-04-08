@@ -47,7 +47,7 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        "Django>=1.8,<=2.2", "django-model-utils>=2.0", "celery>=4.1", "requests", "google-cloud-pubsub"
+        "Django>=1.8,<2.3", "django-model-utils>=2.0", "celery>=4.1", "requests", "google-cloud-pubsub"
     ],
     license="AGPL 3.0",
     zip_safe=False,
